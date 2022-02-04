@@ -1,0 +1,22 @@
+.item {
+    color: blue;
+}
+
+.postsblock {
+    padding: 10px;
+}
+
+.textarea {
+    width: 930px;
+    height: 50px;
+    border-block-color: dodgerblue;
+    color: dodgerblue;
+
+}
+
+.button {
+    border-bottom-color: aqua;
+    border-radius: 30px;
+    color: blue;
+    margin-left: 900px;
+}

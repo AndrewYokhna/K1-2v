@@ -1,0 +1,18 @@
+.appwrapper {
+    margin: 0 auto;
+    display: grid;
+    width: 1200px;
+    grid-template-areas:
+    "h h"
+    "c n";
+
+    grid-template-rows: 220px 1fr;
+    grid-template-columns: 10fr 2fr;
+    /*grid-gap: 10px;*/
+}
+
+.appwrappercontent {
+    grid-area: c;
+    background-color: paleturquoise;
+
+}

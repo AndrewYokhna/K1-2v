@@ -1,0 +1,18 @@
+.item {
+    color: blue;
+}
+.posts_block {
+    padding: 10px;
+}
+.like {
+    width: 10px;
+    height: 10px;
+
+}
+.textarea {
+    width: 930px;
+    height: 50px;
+    border-block-color: dodgerblue;
+    color: dodgerblue;
+
+}

@@ -1,0 +1,37 @@
+.dialog_grid {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+    grid-template-areas:
+            "d m";
+}
+
+.dialogsItem {
+    padding: 10px;
+}
+.dialogsItem a.activeLink {
+    color: darkred;
+}
+
+.dialog a {
+    color: darkblue;
+    text-decoration-line: none;
+}
+
+.messages {
+    padding: 10px;
+
+}
+
+.message {
+    color: darkblue;
+}
+
+.dialog_background {
+    grid-area: d;
+    background-color: cadetblue;
+}
+
+.messages_background {
+    grid-area: m;
+    background-color: aquamarine;
+}
