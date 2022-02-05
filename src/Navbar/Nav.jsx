@@ -2,7 +2,7 @@ import React from 'react';
 import p from './Nav.module.css';
 import { NavLink } from "react-router-dom";
 
-const Navbar = () => {
+const Navbar = (props) => {
     return <div className={p.nav}>
         <div className={`${p.item} ${p.activeLink}`}>
             <div >

@@ -1,6 +1,6 @@
 import React from "react";
-import p from './../../css/Avatar.module.css';
-import avatar from './../../img/avatar.jpg';
+import p from '../../css/Avatar.module.css';
+import avatar from '../../img/avatar.jpg';
 
 
 
